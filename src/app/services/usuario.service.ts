@@ -7,9 +7,9 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class UsuarioService {
 
-  urlGetUsuarios = 'http://demobackend-env.eba-phfuxkz4.us-east-1.elasticbeanstalk.com/rest/usuarios';
-  urlGetUsuario = 'http://demobackend-env.eba-phfuxkz4.us-east-1.elasticbeanstalk.com/rest/usuario';
-  urlGetLogin = 'http://demobackend-env.eba-phfuxkz4.us-east-1.elasticbeanstalk.com/rest/login'
+  urlGetUsuarios = 'http://API_IP:8080/rest/usuarios';
+  urlGetUsuario = 'http://API_IP:8080/rest/usuario';
+  urlGetLogin = 'http://API_IP:8080/rest/login'
 
   constructor( private http: Http ) { }
 

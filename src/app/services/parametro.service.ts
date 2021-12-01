@@ -5,8 +5,8 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ParametroService {
 
-  urlGetCargos = 'http://pocdigital-route-pocdigital.cloudapps.linux.local/rest/parametros?numParametro=8';
-  urlGetEstados = 'http://pocdigital-route-pocdigital.cloudapps.linux.local/rest/parametros?numParametro=7';
+  urlGetCargos = 'http://API_IP:8080/rest/parametros?numParametro=8';
+  urlGetEstados = 'http://API_IP:8080/rest/parametros?numParametro=7';
 
   constructor( private http: Http ) { }
 
